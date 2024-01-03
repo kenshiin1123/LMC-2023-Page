@@ -47,11 +47,10 @@ nav {
     position: fixed;
     left: -1.1%;
     top: 20%;
-    height: 100px;
+    height: 14.5vh;
     font-size: 20px;
-    gap: 10px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
     box-shadow: 0px 1px 7px 0.1px black;
 }
 
@@ -68,45 +67,45 @@ nav {
 nav {
     transition: all 1s;
     flex-direction: column;
-    width: 130px;
+    width: 10vw;
 }
 
-nav:nth-of-type(2) {
+nav{
     background-color: rgba(240, 240, 240, 0.100);
 }
 
 
 nav a {
     text-decoration: none;
-    font-family: 'Afacad', sans-serif;}
+    font-family: 'Afacad', sans-serif;
+}
 
 #nav-box {
     font-weight: 800;
-    background-color: rgba(240, 240, 240, 0.4);
-    color: black;
+    background-color: #2b2d42;
+    color: white;
     transition: all 0.2s;
-    margin-left: 20px;
+    margin-left: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 90px;
-    border-radius: 6px;
     height: 45px;
+
 }
 
 #nav-box:hover {
     color: white;
     background-color: black;
     margin-left: 30px;
-    box-shadow: -5px 0px 10px 0.09px white;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    box-shadow: -5px 0px 10px 0.02px white;
 }
 
-#nav-box,
-#nav-box:nth-of-type(1),
-#nav-box:nth-of-type(2),
-#nav-box:nth-of-type(3) {
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
+#nav-box {
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
 }
 
 #home {
@@ -358,10 +357,13 @@ main {
 
 .candidates-h1:hover {
     color: white;
-    transition: all 0.7s;
-    transform: translateY(-10px);
-    box-shadow: 0px 4px 15px 1px cyan;
+    transition: all 0.3s;
+    transform: translateY(-13px);
+    box-shadow: 0px 2px 7px 0.01vh cyan;
     background-color: black;
+}
+.candidates-h1:active {
+    transform: translateY(0.4px);
 }
 
 
@@ -375,7 +377,7 @@ main {
 }
 
 .candidates-h1-box:hover {
-    transition: all 0.7s;
+    transition: all 0.4s;
     gap: 40px;
 }
 
@@ -415,6 +417,20 @@ html{
     font-size: 40px;
     animation: scrollUp 0.8s ease-in-out infinite normal forwards;
 }
+
+
+.scroll-up-2-stop{
+    animation: none;
+    transform: translate(0, -50%) rotate(-90deg);
+}
+
+
+.scroll-up-2-stop:active{
+    animation: none;
+    transition:all 0.2s;
+    transform: translate(0, -50%) rotate(-90deg) scale(0.8);
+}
+
 @keyframes scrollUp{
     0%{
         top: 75%;

@@ -118,3 +118,11 @@ boxy.addEventListener('mouseout', () => {
     arrow2.classList.toggle('arrow2');
 })
 
+
+
+arrowUp.addEventListener('mouseover', () => {
+    arrowUp.classList.toggle('scroll-up-2-stop')
+})
+arrowUp.addEventListener('mouseout', () => {
+    arrowUp.classList.toggle('scroll-up-2-stop')
+})

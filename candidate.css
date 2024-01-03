@@ -14,7 +14,6 @@ body, .slider-container {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    /* background-color: blue; */
 
 }
 
@@ -23,7 +22,6 @@ body, .slider-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: red; */
 }
 
 .slide img {
@@ -38,7 +36,6 @@ body, .slider-container {
     align-items: center;
     font-size: 50px;
     padding: 1px;
-    /* background-color: black; */
     border-radius: 50%;
     width: 70px;
     height: 70px;

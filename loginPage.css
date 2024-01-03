@@ -1,0 +1,195 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2b2d42;
+    font-family: 'Afacad', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 7px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-right: 3vw;
+    /* background-color: blue; */
+    width: 70vw;
+    height: 85vh;
+}
+
+
+.innerBox2 {
+    background-color: white;
+    width: 35vw;
+    height: 85vh;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.innerBox2 h1 {
+    font-size: 6vh;
+    user-select: none;
+    margin-top: 10vh;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+.innerBox2 input[type="text"],
+.innerBox2 input[type="password"] {
+    padding-left: 1vw;
+    margin-left: 2.2vw;
+    width: 20vw;
+    font-size: 2.5vh;
+    height: 2vw;
+    margin-bottom: 2vh;
+}
+
+.innerBox2 input[type="password"] {
+    margin-bottom: 4vh;
+}
+
+.innerBox2 input[type="checkbox"] {
+    margin-top: 1.2vh;
+    width: 2.3vw;
+    height: 2.3vh;
+    margin-left: 2.2vw;
+
+}
+
+.innerBox2 label {
+    user-select: none;
+    font-size: 2.4vh;
+    margin-right: 5vh;
+}
+
+
+
+.innerBox2 input[type="submit"],
+.innerBox2 input[type="button"] {
+    user-select: none;
+    margin-top: 3vh;
+    margin-left: 3vw;
+    font-size: 3vh;
+    width: 20vw;
+    height: 7vh;
+    border-radius: 7px;
+
+}
+
+.innerBox2 .createAccount {
+    /* background-color: lime; */
+    color: black;
+}
+
+.innerBox2 input[type="submit"] {
+    margin-top: 9vh;
+}
+
+.create:nth-last-of-type(1) {
+    margin-left: 18.5vw;
+    border-radius: 0.5vh;
+    font-size: 3vh;
+    margin-top: 1vh;
+    height: 5vh;
+    width: 13vw;
+}
+
+.create:nth-last-of-type(2) {
+    margin-left: 18.5vw;
+    border-radius: 0.5vh;
+    font-size: 3vh;
+    margin-top: 6vh;
+    height: 5vh;
+    width: 13vw;
+}
+
+.innerBox2 a {
+    user-select: none;
+    font-size: 2.4vh;
+    text-decoration: none;
+    color: black;
+}
+
+.innerBox2 a:hover {
+    color: blue;
+}
+
+
+
+
+.innerBox1 {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    background-color: white;
+    width: 60vw;
+    height: 85vh;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 7px;
+    transition: all 1s;
+}
+
+.innerBox1 div {
+    display: flex;
+    flex-direction: column;
+}
+
+.innerBox1 input[type="text"],
+.innerBox1 input[type="password"],
+.innerBox1 h1 {
+    padding: 10px;
+    padding-left: 2vh;
+    font-size: 2.5vh;
+    width: 20vw;
+    margin-left: 15vw;
+    height: 1.5vh;
+}
+
+.innerBox1 h1 {
+    font-size: 7vh;
+    user-select: none;
+    margin-top: 10vh;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    margin-bottom: 9vh;
+}
+
+.innerBox1 input[type="submit"],
+.innerBox1 input[type="button"] {
+    width: 15vw;
+}
+
+
+.innerBox1 label {
+    margin-top: 4vh;
+    margin-bottom: 1vh;
+    margin-left: 15vw;
+    font-size: 2.5vh;
+}
+
+/* form 1 close */
+.formClose {
+    display: none;
+}
+
+.innerBox2-radius {
+    transition: all 1s;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 100%;
+    background-color: #d62828;
+}
+
+
+.innerBox1-radius {
+    background-color: #d62828;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 20px;
+    transition: all 1s;
+}

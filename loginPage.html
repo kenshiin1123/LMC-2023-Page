@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="loginPage.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="innerBox1">
+            <form action="#" id="form-2">
+                <h1>Create Account</h1>
+                <div>
+                    <label for="create-username">enter your new username</label>
+                    <input type="text" id="create-username" required>
+                </div>
+                <div>
+                    <label for="create-password">enter your new password</label>
+                    <input type="password" id="create-password" required>
+                    <input type="submit" class="create" value="Submit">
+                    <input type="button" class="create" id="create-login" value="Login">
+                </div>
+            </form>
+        </div>
+        <div class="innerBox2">
+            <form action="#" id="form-1">
+                <h1>Login</h1>
+                <input type="text" placeholder="username" required id="username">
+                <input type="password" placeholder="password" required id="password">
+                <input type="checkbox" id="checkbox">
+                <label for="checkbox">Remember me</label>
+                <a href="#">Forgot Password?</a>
+                <input type="submit" id="submit" value="Login">
+                <input type="button" id="submit" class="createAccount" value="Create Account">
+            </form>
+        </div>
+    </div>
+    <script src="loginPage.js"></script>
+</body>
+
+</html>

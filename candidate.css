@@ -18,15 +18,15 @@ body, .slider-container {
 }
 
 .slide {
-    gap: 10px;
+    gap: 0.7320644216691069vw;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .slide img {
-    width: 300px;
-    border-radius: 7px;
+    width: 21.961932650073205vw;
+    border-radius: 0.5124450951683748vw;
 }
 
 .switchSlide-1, .switchSlide-2 {
@@ -34,21 +34,21 @@ body, .slider-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 50px;
-    padding: 1px;
+    font-size: 3.6603221083455346vw;
+    padding: 0.07320644216691069vw;
     border-radius: 50%;
-    width: 70px;
-    height: 70px;
-    margin: 5px;
+    width: 5.124450951683748vw;
+    height: 5.124450951683748vw;
+    margin:  0.36603221083455345vw;
 }
 
 .switchSlide-1:hover {
-    transform: translateX(-7px);
+    transform: translateX(-0.5124450951683748vw);
     transition: all 0.2s;
 }
 
 .switchSlide-2:hover {
-    transform: translateX(7px);
+    transform: translateX(0.5124450951683748vw);
     transition: all 0.2s;
 }
 
@@ -70,7 +70,7 @@ body, .slider-container {
     text-align: center;
     font-size: 4.5vw;
     color: white;
-    text-shadow: 2px 2px 5px black;
+    text-shadow: 0.14641288433382138vw 0.14641288433382138vw 0.36603221083455345vw black;
 }
 
 .button{
@@ -83,19 +83,20 @@ body, .slider-container {
     align-items: center;
     margin-top: 20vh;
     width: 14vw;
-    height: 7vh;
-    border-radius: 7px;
-    box-shadow: 0px 2px 15px 1px black;
+    height: 3vw;
+    font-size: 2.5vh;
+    border-radius: 0.5124450951683748vw;
+    box-shadow: 0px  0.14641288433382138vw 1.0980966325036603vw 1px black;
     margin-bottom: 10vh;
 }
 
 .button:hover{
     transition: all 0.3s;
-    transform: translateX(-10px);
-    box-shadow: 10px 2px 15px 1px black;
+    transform: translateX(-0.7320644216691069vw);
+    box-shadow: 0.7320644216691069vw 0.14641288433382138vw 1.0980966325036603vw 0.07320644216691069vw black;
 }
 .button:active{
     transition: all 0.1s;
-    transform: translateX(10px);
-    box-shadow: 0px 2px 15px 1px black;
+    transform: translateX(0.7320644216691069vw);
+    box-shadow: 0px 0.14641288433382138vw 1.0980966325036603vw 0.07320644216691069vw black;
 }

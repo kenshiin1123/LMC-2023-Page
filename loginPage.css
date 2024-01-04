@@ -47,6 +47,7 @@ body {
     font-size: 2.5vh;
     height: 2vw;
     margin-bottom: 2vh;
+    border-radius: 0.9vh;
 }
 
 .innerBox2 input[type="password"] {
@@ -64,7 +65,7 @@ body {
 .innerBox2 label {
     user-select: none;
     font-size: 2.4vh;
-    margin-right: 5vh;
+    margin-right: 2vh;
 }
 
 
@@ -146,6 +147,7 @@ body {
     width: 20vw;
     margin-left: 15vw;
     height: 1.5vh;
+    border-radius: 0.9vh;
 }
 
 .innerBox1 h1 {
@@ -197,3 +199,17 @@ body {
     transition: all 1s;
 }
 
+
+/* new button hover effects!! january 4*/
+
+.innerBox1 .create, .innerBox2 #submit{
+background-color: white;
+border: none;
+box-shadow: 0 1vh 4vh rgba(0, 0, 0, 0.1);
+}
+
+.innerBox1 .create:hover, .innerBox2 #submit:hover{
+    transition: all 0.2s;
+letter-spacing: 0.2vh;
+background-color: rgba(215, 210, 210, 0.988);
+}

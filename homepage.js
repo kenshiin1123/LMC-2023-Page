@@ -9,7 +9,22 @@ mrmsVideo.volume = .20;
 //arrow up
 const arrowUp = document.querySelector('#arrowUp');
 
+const logo1 = document.querySelector('.logo1')
+const link1 = document.createElement('a');
+link1.href = 'https://www.facebook.com/tcgcluxmundi'
 
+
+const logo2 = document.querySelector('.logo2')
+const link2 = document.createElement('a');
+link2.href = 'https://www.facebook.com/gadtcICS'
+
+
+logo1.addEventListener('click', () => {
+    window.open(link1, '_blank');
+})
+logo2.addEventListener('click', () => {
+    window.open(link2, '_blank');
+})
 
 document.addEventListener('DOMContentLoaded', function () {
     const slide2H1 = document.querySelector('.slide-2 h1');

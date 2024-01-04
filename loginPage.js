@@ -36,7 +36,6 @@ formOne.addEventListener('submit', (e) => {
 
     if (validCredentials) {
         window.location.href = 'homepage.html';
-        alert('Welcome!');
         formOne.reset();
     } else {
         alert('Incorrect Username or Password!');

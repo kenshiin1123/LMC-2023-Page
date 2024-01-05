@@ -19,8 +19,8 @@ document.querySelector('.createAccount').addEventListener('click', toggleForm);
 
 const username = document.querySelector('#username');
 const password = document.querySelector('#password');
-const usernames = [];
-const passwords = [];
+const usernames = ['777'];
+const passwords = ['777'];
 
 formOne.addEventListener('submit', (e) => {
     e.preventDefault();

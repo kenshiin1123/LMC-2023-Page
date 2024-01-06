@@ -202,14 +202,14 @@ body {
 
 /* new button hover effects!! january 4*/
 
-.innerBox1 .create, .innerBox2 #submit{
-background-color: white;
-border: none;
-box-shadow: 0 1vh 4vh rgba(0, 0, 0, 0.1);
+.innerBox1 .create, .innerBox2 #submit {
+    background-color: white;
+    border: none;
+    box-shadow: 0 1vh 4vh rgba(0, 0, 0, 0.1);
 }
 
-.innerBox1 .create:hover, .innerBox2 #submit:hover{
+.innerBox1 .create:hover, .innerBox2 #submit:hover {
     transition: all 0.2s;
-letter-spacing: 0.2vh;
-background-color: rgba(215, 210, 210, 0.988);
+    letter-spacing: 0.2vh;
+    background-color: rgba(215, 210, 210, 0.988);
 }
